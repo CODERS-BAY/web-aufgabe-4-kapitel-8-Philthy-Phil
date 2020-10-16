@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Dosis', sans-serif;
+    font-size: 120%;
+    line-height: 1.4;
+    background-color: #fff;
+    color: #fff;
+}
+h2 {
+    padding:  1rem 0 1rem 0;
+}
+nav, footer {
+    background-color: #325935;
+}
+nav ul, footer ul {
+    list-style-type: none;
+    display: flex;
+    padding: 1rem;
+}
+nav a, footer a {
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover, footer a:hover {
+    color: #B9D948;
+}
+.cont1, .cont2 {
+    background-color: #B9D948;
+    height: auto;
+    padding: 5rem 0rem 5rem 0rem;
+}
+blockquote {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 5.5vw;
+    text-align: center;
+    padding: 8.5rem; 
+    color: #325935;
+}
+cite {
+    padding: 1rem;
+    color: #325935;
+    display: block;
+}
+img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding-top: 4rem;
+}
+article {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #325935;
+}
+section {
+    width: 50%;
+    padding: 2rem;
+}
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+.cont1 a, .cont2 a {
+    text-decoration: none;
+    color: #325935;
+}
+.cont1 a:hover, .cont2 a:hover {
+    color: #fff;
+}
+dd {
+    padding-left: 2rem;
+}
+dt {
+    font-weight: 600;
+}
+
+
+
+
+/******************* mobile **********************************/
+@media screen and (max-width: 720px) {
+  
+    nav ul {
+        font-size: 90%;
+        display: block;
+    }
+    footer ul {
+        display: block;
+    }
+    .abstand {
+        display: none;
+    }
+    article {
+        align-items: center;
+        text-align: center;
+        display: block;
+        padding: 0;
+    }
+    section {
+        width: 100%;
+        padding: 1rem 0rem 1rem 0rem;
+    }
+    dd {
+        padding-left: 0rem;
+    }
+}
